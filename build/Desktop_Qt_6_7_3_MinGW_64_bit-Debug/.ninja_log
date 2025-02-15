@@ -1,0 +1,8 @@
+# ninja log v6
+4	1040	7613585564839069	CMakeFiles/untitled7.dir/main.cpp.obj	557d9ec728310835
+1040	1260	7613585575194651	untitled7.exe	ccb60d451f392abe
+25	511	7613587991230733	CMakeFiles/untitled7.dir/time_utils.cpp.obj	800af129151d13f9
+20	993	7613587991178263	CMakeFiles/untitled7.dir/main.cpp.obj	557d9ec728310835
+25	814	7613588972645711	CMakeFiles/untitled7.dir/main.cpp.obj	557d9ec728310835
+30	1236	7613588972705741	CMakeFiles/untitled7.dir/computer_club.cpp.obj	bc07b87b67b51039
+1237	1440	7613588984768905	untitled7.exe	1b6f6aa6990fd94e

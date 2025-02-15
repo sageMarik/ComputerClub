@@ -1,7 +1,0 @@
-D:/cpp_projects/untitled7/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/CMakeFiles/untitled7.dir
-D:/cpp_projects/untitled7/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-D:/cpp_projects/untitled7/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
-D:/cpp_projects/untitled7/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
-D:/cpp_projects/untitled7/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/CMakeFiles/install.dir
-D:/cpp_projects/untitled7/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
-D:/cpp_projects/untitled7/build/Desktop_Qt_6_7_3_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir

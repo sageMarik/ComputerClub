@@ -30,12 +30,12 @@
 ### Linux/macOS
 
 ```bash
-g++ -std=c++11 main.cpp time_utils.cpp computer_club.cpp -o task
+g++ main.cpp time_utils.cpp computer_club.cpp -o task
 ```
 
 Windows (с MinGW)
 ```bash
-g++ -std=c++11 main.cpp time_utils.cpp computer_club.cpp -o task.exe
+g++ main.cpp time_utils.cpp computer_club.cpp -o task.exe
 ```
 
 ## Запуск

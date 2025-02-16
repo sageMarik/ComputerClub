@@ -1,4 +1,3 @@
-// computer_club.cpp
 #include "computer_club.h"
 #include <iostream>
 #include <sstream>
@@ -26,11 +25,11 @@ void ComputerClub::processEvent(const std::string& line) {
     outputStream << line << std::endl;
 
     switch (eventId) {
-    case 1: { // Client arrives
+    case 1: { 
         handleClientArrives(eventTime, clientName);
         break;
     }
-    case 2: { // Client sits at table
+    case 2: { 
         int tableNumber;
         if (!(eventStream >> tableNumber)) {
             std::cerr << "Error parsing table number" << std::endl;
@@ -39,11 +38,11 @@ void ComputerClub::processEvent(const std::string& line) {
         handleClientSitsAtTable(eventTime, clientName, tableNumber);
         break;
     }
-    case 3: { // Client waits
+    case 3: { 
         handleClientWaits(eventTime, clientName);
         break;
     }
-    case 4: { // Client leaves
+    case 4: { 
         handleClientLeaves(eventTime, clientName);
         break;
     }
@@ -82,7 +81,7 @@ void ComputerClub::handleClientSitsAtTable(const Time& eventTime, const std::str
             tableRevenue[prevTable] += hoursSpent * hourlyRate;
             tableUsage[prevTable] += minutesSpent;
 
-            clientStatus[clientName] = 0; // Back to "in club" state.
+            clientStatus[clientName] = 0; 
             clientTable.erase(clientName);
         }
         clientStatus[clientName] = tableNumber;

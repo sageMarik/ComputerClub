@@ -1,4 +1,3 @@
-// main.cpp
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -26,7 +25,6 @@ int main(int argc, char* argv[]) {
     Time startTime, endTime;
     int hourlyRate;
 
-    // Чтение конфигурации
     string line;
     if (!getline(file, line)) {
         cerr << "Error reading number of tables" << endl;
@@ -65,16 +63,15 @@ int main(int argc, char* argv[]) {
 
     ComputerClub club(numTables, startTime, endTime, hourlyRate);
 
-    cout << formatTime(startTime) << endl; // Initial output
+    cout << formatTime(startTime) << endl; 
 
-    // Обработка событий
     while (getline(file, line)) {
         club.processEvent(line);
     }
 
     club.generateEndOfDayEvents();
     club.printStatistics();
-    cout << club.getOutput(); // Print complete output
+    cout << club.getOutput();
     file.close();
     return 0;
 }
